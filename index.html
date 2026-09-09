@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <marquee scrollamount="12"><h1>Halo, Saya Gibran</h1></marquee>
+        <marquee scrollamount="12"><h1>Halo, Saya GIBRAN GANTENG BANGET</h1></marquee>
         <p>Web Developer & Designer</p>
     </header>
 
@@ -28,5 +28,205 @@
     <footer>
         <p>&copy; 2026 Gibran.</p>
     </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bon | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: white;
+    }
+
+    nav {
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      background: #111827;
+    }
+
+    nav h2 {
+      color: #38bdf8;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    .hero {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      margin-bottom: 15px;
+    }
+
+    .hero span {
+      color: #38bdf8;
+    }
+
+    .hero p {
+      color: #94a3b8;
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .button {
+      background: #38bdf8;
+      color: #0f172a;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: white;
+    }
+
+    section {
+      padding: 60px 8%;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 25px;
+    }
+
+    .about {
+      max-width: 600px;
+      margin: auto;
+      color: #cbd5e1;
+      line-height: 1.7;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 220px;
+      padding: 25px;
+      background: #1e293b;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-7px);
+      background: #263449;
+    }
+
+    .card h3 {
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #64748b;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      nav a {
+        margin-left: 8px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <h2>Bon.</h2>
+
+    <div>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#project">Project</a>
+    </div>
+  </nav>
+
+  <div class="hero" id="home">
+    <h1>Halo, saya <span>Bon</span> 👋</h1>
+
+    <p>Pelajar • Coding • Basketball</p>
+
+    <a href="#project" class="button">
+      Lihat Project
+    </a>
+  </div>
+
+  <section id="about">
+    <h2>Tentang Saya</h2>
+
+    <p class="about">
+      Saya sedang belajar coding dan membuat berbagai project
+      sederhana menggunakan teknologi web.
+    </p>
+  </section>
+
+  <section id="project">
+    <h2>Project Saya</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>🌐 Website</h3>
+        <p>Website sederhana dengan HTML & CSS.</p>
+      </div>
+
+      <div class="card">
+        <h3>💻 Coding</h3>
+        <p>Project coding yang sedang saya pelajari.</p>
+      </div>
+
+      <div class="card">
+        <h3>🏀 Basketball</h3>
+        <p>Salah satu hobi saya di luar coding.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Bon. All Rights Reserved.
+  </footer>
+
 </body>
 </html>
